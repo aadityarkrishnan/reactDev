@@ -28,4 +28,4 @@ const parent = React.createElement(
 // If I need to create more than one sub child element (sibling) then you have to put it in array 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent)
+root.render(parent) // this will replace whatever content in the root element
